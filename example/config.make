@@ -17,7 +17,7 @@ USER_CFLAGS =
 # for example libraries like:
 # USER_LDFLAGS = libs/libawesomelib.a
 
-USER_LDFLAGS = --start-group -lboost_thread-mt -lboost_filesystem -lboost_program_options -lboost_system --end-group
+USER_LDFLAGS = -lboost_thread-mt -lboost_filesystem -lboost_program_options -lboost_system
 
 
 EXCLUDE_FROM_SOURCE="bin,.xcodeproj,obj"
